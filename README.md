@@ -32,7 +32,7 @@ Finally,
 ```bash
 update-initramfs -u
 ```
-Tested with CF-19C MK8 with Ubuntu 20.04
+Tested with CF-19Z MK8 with Ubuntu 20.04
 
 Credit to others who came before me!
 https://github.com/hevz/panasonic-hbtn |
