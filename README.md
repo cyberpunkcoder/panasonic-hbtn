@@ -15,9 +15,6 @@ Install the panasonic-hbtn driver for Ubuntu
 And done!
 
 Source code for the driver can be found in the /src folder.
-```bash
-update-initramfs -u
-```
 Tested with CF-19Z MK8 with Ubuntu 20.04
 
 Credit to others who came before me!
