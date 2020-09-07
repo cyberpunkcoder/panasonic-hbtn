@@ -1,0 +1,1 @@
+cmd_/home/cyberpunkprogrammer/test/panasonic-hbtn/usr/local/src/panasonic-hbtn/panasonic-hbtn.mod := { echo  /home/cyberpunkprogrammer/test/panasonic-hbtn/usr/local/src/panasonic-hbtn/panasonic-hbtn.o; echo; } > /home/cyberpunkprogrammer/test/panasonic-hbtn/usr/local/src/panasonic-hbtn/panasonic-hbtn.mod

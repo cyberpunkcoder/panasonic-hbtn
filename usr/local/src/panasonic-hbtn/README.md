@@ -1,34 +1,20 @@
 # panasonic-hbtn
-Panasonic Toughbook CF-19 Tablet Button driver for Linux updated Jul 1 2020
+Panasonic Toughbook CF-19 Tablet Button driver for Linux updated Sep 7 2020
 
 ## Usage
 
 Clone the repo into any directory.
 ```bash
 git clone https://github.com/cyberpunkprogrammer/panasonic-hbtn.git
+cd panasonic-hbtn
 ```
-
-Move files to appropriate system directories they are found in this download.
+Install the panasonic-hbtn driver for Ubuntu
 ```bash
-cp -r panasonic-hbtn/usr/local/src/panasonic-hbtn /usr/local/src/panasonic-hbtn
-cp -r panasonic-hbtn/usr/local/bin /usr/local/bin
+./install.sh
 ```
+And done!
 
-Make and install the driver.
-```bash
-cd /usr/local/src/panasonic-hbtn
-make all
-make install
-
-depmod -a
-modprobe panasonic-hbtn
-cd /usr/local/bin
-sudo ./hotkeys.sh
-```
-
-Then try out if those buttons are in working order. 
-
-Finally, 
+Source code for the driver can be found in the /src folder.
 ```bash
 update-initramfs -u
 ```
