@@ -57,7 +57,6 @@ then
   xinput set-prop "$TouchscreenDevice" 'Coordinate Transformation Matrix' $right
 elif [ $screenMatrix == $inverted_float ] && [ "$1" != "-j" ] && [ "$1" != "-n" ]
 then
-  #this is not desired on Panasonic CF-19, code left in if somebody still wants it
   echo "Upside down"
   xrandr -o inverted
   xinput set-prop "$TouchscreenDevice" 'Coordinate Transformation Matrix' $inverted
