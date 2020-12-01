@@ -7,8 +7,8 @@ all:
 clean:
 	make -C /lib/modules/$(KVERSION)/build M=$(shell pwd) clean
 install:
-	sudo mkdir -p /lib/modules/$KVERSION/kernel/drivers/panasonic-hbtn/
-	sudo cp $(pwd)panasonic-hbtn.ko /lib/modules/$KVERSION/kernel/drivers/panasonic-hbtn/
+	sudo mkdir -p /lib/modules/$(KVERSION)/kernel/drivers/panasonic-hbtn/
+	sudo cp $(pwd)panasonic-hbtn.ko /lib/modules/$(KVERSION)/kernel/drivers/panasonic-hbtn/
 	sudo cp $(pwd)panasonic-hbtn.conf /etc/modules-load.d/
 	sudo cp $(pwd)rotate-screen.sh /usr/local/bin/
 	sudo cp $(pwd)toggle-screen-keyboard.sh /usr/local/bin/

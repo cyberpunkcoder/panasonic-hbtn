@@ -1,5 +1,5 @@
 # panasonic-hbtn
-Panasonic Toughbook CF-19 Tablet Button driver for Linux updated November 14 2020
+Panasonic Toughbook CF-19 Tablet Button Driver (Tested Working Ubuntu 20.04 Dec 1 2020)
 
 ## Usage
 
